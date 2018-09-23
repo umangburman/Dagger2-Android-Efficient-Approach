@@ -29,7 +29,7 @@ This has a few problems:
 
 - More fundamentally, it requires the type requesting injection (FrombulationActivity) to know about its injector. Even if this is done through interfaces instead of concrete types, it breaks a core principle of dependency injection: a class shouldn’t know anything about how it is injected.
 
-To overcome theses, Dagger has introduced **dagger.android** from **version - 2.10** onwards. The classes in dagger.android offer one approach to simplify this pattern.
+To overcome these, Dagger has introduced **dagger.android** from **version - 2.10** onwards. The classes in dagger.android offer one approach to simplify this pattern.
 
 1. **AndroidInjectionModule:** Contains bindings to ensure the usability of dagger.android framework classes. This module should be installed in the component that is used to inject the Application class.
 
