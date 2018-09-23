@@ -1,4 +1,4 @@
-# Login Example using Efficient Dagger2 Android - Android Injector
+# Login Example using Efficient Dagger2 - Android Injector
 
 This is a very simple **Login Example of Dagger2 - An Efficient Approach** in Android. It takes the input from the UI, uses Dagger2 and displays back on the UI efficiently.
 
