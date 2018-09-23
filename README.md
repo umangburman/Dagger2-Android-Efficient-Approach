@@ -33,9 +33,7 @@ To overcome theses, Dagger has introduced **dagger.android** from **version - 2.
 
 1. **AndroidInjectionModule:** Contains bindings to ensure the usability of dagger.android framework classes. This module should be installed in the component that is used to inject the Application class.
 
-2. **ContributesAndroidInjector:** Generates an AndroidInjector for the return type of this method. The injector is implemented with a Subcomponent and will be a child of the Module's component.
-
-This annotation must be applied to an abstract method in a Module that returns a concrete Android framework type (e.g. FooActivity, BarFragment, MyService, etc). The method should have no parameters. 
+2. **ContributesAndroidInjector:** Generates an AndroidInjector for the return type of this method. The injector is implemented with a Subcomponent and will be a child of the Module's component. This annotation must be applied to an abstract method in a Module that returns a concrete Android framework type (e.g. FooActivity, BarFragment, MyService, etc). The method should have no parameters. 
 
 3. **HasActivityInjector:** Provides an AndroidInjector of Activitys.
 
